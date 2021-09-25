@@ -46,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04BE262126FF579C008259B9 /* FAStepped.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FAStepped.swift; path = ../FAStepped.swift; sourceTree = "<group>"; };
+		04BE262226FF579C008259B9 /* LFTPulseAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LFTPulseAnimation.swift; path = ../LFTPulseAnimation.swift; sourceTree = "<group>"; };
 		07AA857B6D02CBB500A3DC8A1519D523 /* Pods-FAStepped_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FAStepped_Example-umbrella.h"; sourceTree = "<group>"; };
 		08B7A855B98C2109128662567461A190 /* Pods-FAStepped_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FAStepped_Example-dummy.m"; sourceTree = "<group>"; };
 		09D901EFFE1EE2A9EF78EEDB1F3FDD5B /* Pods-FAStepped_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FAStepped_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -93,6 +95,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04BE262026FF56D0008259B9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04BE262126FF579C008259B9 /* FAStepped.swift */,
+				04BE262226FF579C008259B9 /* LFTPulseAnimation.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		2ABB51E178AC6B0068E14DA8DB3EB709 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +166,7 @@
 		8FB7D92BBDB50C387CBD6CE7DBCA4415 /* FAStepped */ = {
 			isa = PBXGroup;
 			children = (
+				04BE262026FF56D0008259B9 /* Classes */,
 				2ABB51E178AC6B0068E14DA8DB3EB709 /* Pod */,
 				F7F4128AB61A9A229CBE7FC950804D89 /* Support Files */,
 			);
@@ -276,6 +288,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					0CD30851C9F2EA86A9517FE388F2325F = {
+						LastSwiftMigration = 1300;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 12.0";
@@ -494,6 +511,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -501,6 +519,8 @@
 					"@executable_path/Frameworks",
 				);
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -646,6 +666,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -653,6 +674,7 @@
 					"@executable_path/Frameworks",
 				);
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
