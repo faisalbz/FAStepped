@@ -1,0 +1,16 @@
+PODS:
+  - FAStepped (0.1.0)
+
+DEPENDENCIES:
+  - FAStepped (from `../`)
+
+EXTERNAL SOURCES:
+  FAStepped:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FAStepped: aac9a848283c7f748e26661683f8fd651903401c
+
+PODFILE CHECKSUM: 1d94c84c05eec38e0453039d600211642fbf7e0b
+
+COCOAPODS: 1.11.2

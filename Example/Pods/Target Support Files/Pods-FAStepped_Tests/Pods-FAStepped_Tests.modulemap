@@ -1,0 +1,6 @@
+framework module Pods_FAStepped_Tests {
+  umbrella header "Pods-FAStepped_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

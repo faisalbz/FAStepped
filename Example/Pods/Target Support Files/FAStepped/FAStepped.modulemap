@@ -1,0 +1,6 @@
+framework module FAStepped {
+  umbrella header "FAStepped-umbrella.h"
+
+  export *
+  module * { export * }
+}
